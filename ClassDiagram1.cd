@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="MyGames.TetrisGame">
+    <Position X="7" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="MyGames.TetrisGame.GameStatus">
+        <TypeIdentifier>
+          <NewMemberFileName>TetrisGame.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>YAAAAQoEESAoJAwRAAGIAAADFAAAQEAzCAAABAAUAAI=</HashCode>
+      <FileName>TetrisGame.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyGames.Tetris.TetrisBlock">
+    <Position X="4.5" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="MyGames.Tetris.TetrisBlock.MoveDirection" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TetrisBlock.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="MyGames.Tetris.TetrisBlock.Shapes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TetrisBlock.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAUACAIAIhIAAEIAAIACIAAEAAAAAAAAgAAAAAAABE=</HashCode>
+      <FileName>TetrisBlock.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyGames.Tetris.TetrisBoard">
+    <Position X="2.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAgAEAAAEIAQAAAAEAIgAABhAAAgAgAAAE=</HashCode>
+      <FileName>TetrisBoard.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyGames.Tetris.TetrisCell">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEDAIAAAAABhAgAAAABAAAAAACAIAgAABAAAAAAAAAA=</HashCode>
+      <FileName>TetrisCell.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
